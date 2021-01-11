@@ -39,7 +39,7 @@ span {
 
 div:nth-of-type(2) {
     display: inline-block;;
-    width: 50%;
+    width: 60%;
     float: left;
     background-color: blue;
 }
