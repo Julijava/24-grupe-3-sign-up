@@ -1,21 +1,22 @@
-/* TODO: pagrindinis turinys turi buti  centruotas horizontaliai */
 /* TODO: pagrindinis turinys turi buti centruotas vertikaliai */
 
-/* TODO: padaryti, jog stulpeliai stovetu vienoje eileje */
 
+body {
+    background-color: #06b5d0;
+}
 main {
     display: inline-block;
     width: 800px;
-    background-color: red;
     margin-left: calc((100%-800px) / 2);
+    margin-top: 100px;
 }
 
-div:nth-of-type(1) {
+main > div:nth-of-type(1) {
     display: inline-block;
-    width: calc((40%-80px) / 2);
+    width: 40%;
     float: left;
     padding: 40px;
-    background-color: yellow;
+    background-color: #0168ba;
 }
 
 h1 {
@@ -41,5 +42,7 @@ div:nth-of-type(2) {
     display: inline-block;;
     width: 60%;
     float: left;
-    background-color: blue;
+    padding: 60px;
+    background-color: #fff;
+
 }
