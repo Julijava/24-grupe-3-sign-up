@@ -1,5 +1,4 @@
 /* TODO: pagrindinis turinys turi buti centruotas vertikaliai */
-
 body {
     background-color: #06b5d0;
     overflow: hidden;
@@ -88,7 +87,7 @@ body {
 
 .form {
     display: inline-block;
-    width: 100%
+    width: 100%;
 }
 
 .form-row {
@@ -96,14 +95,13 @@ body {
     width: 100%;
     margin-bottom: 30px;
 }
-
 .form-row:last-of-type {
     margin-bottom: 0;
 }
 
-label { 
+label {
     display: inline-block;
-    width: 100%; 
+    width: 100%;
     text-transform: uppercase;
     color: #999;
     font-size: 14px;
@@ -117,7 +115,6 @@ input {
     border: none;
     border-bottom: 2px solid #ccc;
 }
-
 input::placeholder {
     color: #ccc;
     font-style: italic;
@@ -137,9 +134,8 @@ input::placeholder {
     text-transform: capitalize;
     cursor: pointer;
 }
-
 .btn:hover {
-    background-color: #2576e7; 
+    background-color: #2576e7;
 }
 
 .text {
@@ -158,5 +154,3 @@ input::placeholder {
     color: #005bd9;
     text-decoration: none;
 }
-
-
